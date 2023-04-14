@@ -1,0 +1,61 @@
+body {
+    background-color: #132257;
+}
+
+header {
+    background-image: linear-gradient(to left, lightblue, darkblue);
+    color: azure;
+    text-indent: 10%;
+    padding: 7px;
+    margin: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(thistle,rgb(38, 38, 147));
+    color: rgb(246, 238, 246);
+    justify-content: space-between;
+}
+
+#weather {
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(thistle,rgb(38, 38, 147));
+    color: rgb(246, 238, 246);
+    margin-bottom: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+}
+
+#generate {
+    background-color: rgb(44, 114, 160);
+    color: beige;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin: 2px;
+}
+
+#generate:hover {
+    background-color: rgb(175, 196, 210);
+}
+
+.btn {
+    display: block;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    margin: 2px;
+}
+
+.btn:hover {
+    background-color: darkseagreen;
+}
+
+#easySearch {
+    border-top: 2px, darkblue;
+    margin: 10px;
+}
+

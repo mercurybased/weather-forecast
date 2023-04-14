@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<header>
+    <h1 id="header">Weather Forecast</h1>
+</header>
+
+<body>
+    <div>
+        <aside id="sidebar">
+            <form>
+                <h2>Search for a City</h2>
+                <input type="search" id="mySearch" placeholder="Search a city">
+            </form>
+            <button class="btn" id="generate">Search</button>
+            <section id="easySearch">
+                <button class="btn" value="Seattle">Seattle</button>
+                <button class="btn" value="Atlanta">Atlanta</button>
+                <button class="btn" value="Denver">Denver</button>
+                <button class="btn" value="San Francisco">San Francisco</button>
+                <button class="btn" value="Orlando">Orlando</button>
+                <button class="btn" value="New York">New York</button>
+                <button class="btn" value="Chicago">Chicago</button>
+            </section>
+        </aside>
+
+        <section class="wrapper">
+
+            <section id="weather" class="container"><h1>Weather</h1></section>
+
+            <section id="forecast" class="container">
+                <section class="container">
+                    <h1>5 Day forecast</h1>
+                </section>
+
+            </section>
+
+        </section>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
